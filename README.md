@@ -27,7 +27,7 @@ Give ep_chasis.drive_speed to have a circular movement
 ## Program
 Developed by: Yuvaraj V
 Ref no:23013769
-
+```
 from robomaster import robot
 import time
 from robomaster import camera
@@ -68,7 +68,7 @@ time.sleep(4)
 ep_camera.stop_video_stream()
 print("Stopped video streaming.....")
 ep_robot.close()
-
+```
 ## MobileRobot Movement Image:
 
 ![robo](./img/robomaster.png)
